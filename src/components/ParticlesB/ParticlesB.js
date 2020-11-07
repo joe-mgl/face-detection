@@ -10,7 +10,7 @@ class ParticlesB extends Component {
           params={{
             "particles": {
               "number": {
-                "value": 100,
+                "value": 80,
                 "density": {
                   "enable": true,
                   "value_area": 800
@@ -49,7 +49,7 @@ class ParticlesB extends Component {
                 "random": true,
                 "anim": {
                   "enable": false,
-                  "speed": 40,
+                  "speed": 35,
                   "size_min": 0.2,
                   "sync": false
                 }
@@ -81,7 +81,7 @@ class ParticlesB extends Component {
               "events": {
                 "onhover": {
                   "enable": true,
-                  "mode": "grab"
+                  "mode": "repulse"
                 },
                 "onclick": {
                   "enable": true,
@@ -105,7 +105,7 @@ class ParticlesB extends Component {
                   "speed": 3
                 },
                 "repulse": {
-                  "distance": 400,
+                  "distance": 300,
                   "duration": 0.4
                 },
                 "push": {
