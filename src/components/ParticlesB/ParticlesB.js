@@ -10,7 +10,7 @@ class ParticlesB extends Component {
           params={{
             "particles": {
               "number": {
-                "value": 80,
+                "value": 150,
                 "density": {
                   "enable": true,
                   "value_area": 800
@@ -26,7 +26,7 @@ class ParticlesB extends Component {
                   "color": "#000000"
                 },
                 "polygon": {
-                  "nb_sides": 7
+                  "nb_sides": 5
                 },
                 "image": {
                   "src": "img/github.svg",
@@ -39,7 +39,7 @@ class ParticlesB extends Component {
                 "random": false,
                 "anim": {
                   "enable": false,
-                  "speed": 4,
+                  "speed": 1,
                   "opacity_min": 0.1,
                   "sync": false
                 }
@@ -50,7 +50,7 @@ class ParticlesB extends Component {
                 "anim": {
                   "enable": false,
                   "speed": 35,
-                  "size_min": 0.2,
+                  "size_min": 0.1,
                   "sync": false
                 }
               },
@@ -59,11 +59,11 @@ class ParticlesB extends Component {
                 "distance": 130,
                 "color": "#ffffff",
                 "opacity": 0.4,
-                "width": 2
+                "width": 1
               },
               "move": {
                 "enable": true,
-                "speed": 8,
+                "speed": 6,
                 "direction": "none",
                 "random": false,
                 "straight": false,
@@ -81,7 +81,7 @@ class ParticlesB extends Component {
               "events": {
                 "onhover": {
                   "enable": true,
-                  "mode": "repulse"
+                  "mode": "grab"
                 },
                 "onclick": {
                   "enable": true,
@@ -105,7 +105,7 @@ class ParticlesB extends Component {
                   "speed": 3
                 },
                 "repulse": {
-                  "distance": 300,
+                  "distance": 200,
                   "duration": 0.4
                 },
                 "push": {
